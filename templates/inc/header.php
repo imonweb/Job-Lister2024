@@ -31,15 +31,14 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Listing</a>
-              </li>
-            
-                
+              </li>    
             </ul>
-           
           </div>
         </div>
       </nav>
     </div>
+
+<div class="p-4"></div>
 
     <!-- <div class="header clearfix"> -->
       <!-- <nav>
