@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class Database 
 {
@@ -33,6 +33,7 @@ class Database
   public function query($query)
   {
     $this->stmt = $this->dbh->prepare($query);
+    
   }
 
   public function bind($param, $value, $type = null)
@@ -60,13 +61,13 @@ class Database
     return $this->stmt->execute();
   }
 
-  public function $resultSet()
+  public function resultSet()
   {
     $this->execute();
     return $this->stmt->fetchAll(PDO::FETCH_OBJ);
   }
 
-  public function single()
+ public function single()
   {
     $this->execute();
     return $this->stmt->fetch(PDO::FETCH_OBJ);
