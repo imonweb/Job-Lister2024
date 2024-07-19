@@ -3,6 +3,6 @@
 define("DB_HOST", "localhost");
 define("DB_USER", "imon");
 define("DB_PASS", "p@ssw0rd");
-define("DB_NAME", "job_lister2024");
+define("DB_NAME", "php_job_lister2024");
 
 define("SITE_TITLE", "JobLister");

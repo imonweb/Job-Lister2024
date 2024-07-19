@@ -25,15 +25,22 @@ class Database
     // PDO Instance 
     try {
       $this->dbh = new PDO($dsn, $this->user, $this->pass, $options);
+      // $handler = new PDO('mysql:host=localhost;dbname=php_job_lister2024','imon','p@ssw0rd');
+      // $handler->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
     } catch (PDOException $e) {
       $this->error = $e->getMessage();
+      // echo $e->getMessage();
+      die();
     }
   }
+ 
 
   public function query($query)
   {
     $this->stmt = $this->dbh->prepare($query);
-    
+    // $sql = "SELECT * FROM jobs";
+    // $query = $handler->prepare($sql);
   }
 
   public function bind($param, $value, $type = null)
