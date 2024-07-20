@@ -9,4 +9,8 @@ $template->jobs = $job->getAllJobs();
 
 echo $template;
 
-var_dump($template);
+// var_dump($template);
+
+// echo '<pre>';
+// print_r($template);
+// echo '</pre>';
