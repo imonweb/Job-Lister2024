@@ -27,15 +27,14 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="create.php">Create</a>
+                <a class="nav-link" href="create.php">Create Listing</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Listing</a>
-              </li>    
+              
             </ul>
           </div>
         </div>
       </nav>
+      <h3 class="text-muted"><?php // echo SITE_TITLE; ?></h3>
     </div>
 
 <div class="p-4"></div>
@@ -49,7 +48,7 @@
       </nav> -->
       <!-- <h3 class="text-muted"><?php // echo SITE_TITLE; ?></h3> -->
     <!-- </div> -->
-  <?php // displayMessage(); ?>
+  <?php displayMessage(); ?>
 
 
      

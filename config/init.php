@@ -1,9 +1,14 @@
 <?php 
+// Start Session
+session_start();
 
 // require_once('lib/Template.php');
 
 // config file
 require_once 'config.php';
+
+// Include Helpers
+require_once 'helpers/system_helper.php';
 
 // Autoload - Fatal error: __autoload() is no longer supported, use spl_autoload_register() instead in /Users/imon/Sites/php/Udemy/traversy/Job-Lister/config/init.php on line 9
 /*
